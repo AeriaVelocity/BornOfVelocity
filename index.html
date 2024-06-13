@@ -17,13 +17,13 @@
 </head>
 <body>
     <script>
-        let tweetTemplate = `{_}  ❝ ❞`;
+        let tweetTemplate = "{_}  ❝ ❞";
         let spacerCharacter = 'ㅤ'; // U+3164 "HANGUL FILLER"
 
         let oocLink = 'https://www.velocity.xn--6ii';
 
-        function getTweetTemplate(withSpacing, indicator = "_") {
-            let toCopy = tweetTemplate.replace(/\{_\}/g, indicator);
+        function getTweetTemplate(withSpacing) {
+            let toCopy = tweetTemplate;
 
             if (withSpacing) {
                 toCopy = spacerCharacter + "\n" + tweetTemplate + "\n" + spacerCharacter;
