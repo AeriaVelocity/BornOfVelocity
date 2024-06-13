@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="icon.png">
+    <title>BORN OF VELOCITY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        let tweetTemplate = `{_}  ❝ ❞`;
+        let spacerCharacter = 'ㅤ'; // U+3164 "HANGUL FILLER"
+
+        let oocLink = 'https://www.velocity.xn--6ii';
+
+        function getTweetTemplate(withSpacing, indicator = "_") {
+            let toCopy = tweetTemplate.replace(/\{_\}/g, indicator);
+
+            if (withSpacing) {
+                toCopy = spacerCharacter + "\n" + tweetTemplate + "\n" + spacerCharacter;
+            }
+
+            navigator.clipboard.writeText(toCopy);
+
+            alert('Tweet template copied to clipboard.');
+        }
+
+        function getOocLink() {
+            navigator.clipboard.writeText(oocLink);
+            alert('Out-of-context link copied to clipboard.');
+        }
+    </script>
+    <main>
+        <header>
+            <a href="index.html"><img src="icon.png" class="icon"></a>
+            <h1>【 <em>BORN OF VELOCITY</em> 】</h1>
+            <p class="center"><a href="https://twitter.com/BornOfVelocity">@BornOfVelocity</a></p>
+            <p class="center">A multiverse multi-muse roleplay account by <a href="https://aeriavelocity.github.io">AeriaVelocity</a></p>
+        </header>
+        <h2>Characters</h2>
+        <h3>Poster Children</h3>
+        <ul>
+            <li><strong>Neptune</strong>/<strong>Purple Heart</strong> (Hyperdimension Neptunia)</li>
+            <ul>
+                <li>The CPU of Planeptune, the Land of Purple Progress.</li>
+                <li>Indicators: 🍮 (Normal), 💜 (HDD)</li>
+                <li><a href="characters.html#neptune">More information...</a></li>
+            </ul>
+            <li><strong>Sonic the Hedgehog</strong></li>
+            <ul>
+                <li>The main protagonist of the Sonic the Hedgehog series.</li>
+                <li>Indicators: 🔵 (Normal), 🟡 (Super)</li>
+                <li><a href="characters.html#sonic">More information...</a></li>
+            </ul>
+        </ul>
+        <h3>Original Characters</h3>
+        <ul>
+            <li><strong>Joel Nolasstnam</strong> (Swordlink)</li>
+            <ul>
+                <li>A programmer and swordsman who once saved the world from digital demons.</li>
+                <li>Indicator: ⌨️</li>
+                <li><a href="characters.html#joel">More information...</a></li>
+            </ul>
+            <li><strong>Caeliana Serenitide</strong> (Seraph's Rapture)</li>
+            <ul>
+                <li>A hybrid angel-devil seraph, heir to the throne of High Seraph of Heaven.</li>
+                <li>Indicators: 💛 (Normal), ❤️ (Demonic)</li>
+                <li><a href="characters.html#caeliana">More information...</a></li>
+            </ul>
+            <li><strong>Victoria Serenitide</strong> (Seraph's Rapture)</li>
+            <ul>
+                <li>A hybrid angel-devil sorceress, and Caeliana's twin sister.</li>
+                <li>Indicators: ✒️ (Normal), 🪽 (Angelic)</li>
+                <li><a href="characters.html#victoria">More information...</a></li>
+            </ul>
+        </ul>
+        <p><a href="characters.html">View the expanded character list, including detailed character information and other characters.</a></p>
+        <h2>About</h2>
+        <p>After trying (and failing) to manage 5+ Twitter roleplay accounts at once, and after getting locked out of my primary RP account because Twitter is going to hell, I decided to start from scratch.</p>
+        <p>Born Of Velocity encapsulates all characters I've ever roleplayed as, and all characters I plan to roleplay in the future. It's essentially an indefinitely large multimuse account.</p>
+        <h2>Template</h2>
+        <p>This account uses special formatting that can't be typed on a keyboard.</p>
+        <p>Here are templates for both in-character and out-of-character messages.</p>
+        <h3>In-Character</h3>
+        <div class="block">ㅤ
+{_}  ❝ The message goes here. ❞
+
+And actions or out-of-context stuff goes outside the quotes.
+Replace the _ with the indicator for the specific character.
+ㅤ</div>
+        <button onclick="getTweetTemplate(true)">Copy With Spacing (For Tweets)</button> <button onclick="getTweetTemplate(false)">Copy Without Spacing (For DMs)</button>
+        <h3>Out-of-Character</h3>
+        <div class="block"><a href="https://www.velocity.xn--6ii">velocity. </a>
+
+Out-of-character messages or postings from the writer go here.</div>
+        <button onclick="getOocLink()">Copy OOC Link</button>
+    </main>
+</body>
+</html>
