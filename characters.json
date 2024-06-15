@@ -1,0 +1,228 @@
+{
+    "about": {
+        "thisDocument": "This is the JSON file which holds the characters that are part of Born Of Velocity.",
+        "author": "AeriaVelocity",
+        "license": {
+            "short": "CC BY-NC 4.0",
+            "full": "Creative Commons Attribution-NonCommercial 4.0 International",
+            "rights": "You are free to share and adapt the work, but you must give credit to AeriaVelocity if you make adaptations, and you cannot use this work for commercial purposes without permission from AeriaVelocity.",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+        },
+        "url": "https://aeriavelocity.github.io/velocity-rp-profile"
+    },
+    "characters": {
+        "posterChildren": {
+            "name": "Poster Children",
+            "id": "poster-children",
+            "description": "The two main characters on the box. They're the faces of Born Of Velocity.",
+            "characters": {
+                "neptune": {
+                    "name": "Neptune/Purple Heart",
+                    "id": "neptune",
+                    "series": "Hyperdimension Neptunia",
+                    "appearance": {
+                        "Neptune": "Messy short purple hair, purple eyes, white-purple parka dress, white D-Pad hair clips and purple trainers.",
+                        "Purple Heart": "Long braided deep purple hair, blue eyes with power button symbols, black Processor Unit and black boots."
+                    },
+                    "gender": "Female",
+                    "description": "The CPU of Planeptune, the Land of Purple Progress. Based on her appearance in <em>Hyperdimension Neptunia Re;Birth 1</em>.",
+                    "indicators": {
+                        "🍮": ["Normal", "Neptune's human form."],
+                        "💜": ["HDD", "Neptune's Goddess form, also known as Purple Heart."]
+                    },
+                    "relationships": {
+                        "Nepgear": "The CPU Candidate of Planeptune. Neptune's younger sister.",
+                        "Neptune (Hyper Dimension)": "Neptune's counterpart from the Hyper Dimension, and Neptune's girlfriend. Yes, that's canon. Her girlfriend is herself.",
+                        "Ash Blossom-Shikagita": "A half-human half-cat Duelist from Neo Domino City (Yu-Gi-Oh!). Neptune's sister-in-dimension. <a href=\"http://blosom.carrd.co/#ash\">More info at <em>The Blossom Family</em> on Carrd.</a>",
+                        "Noire": "The CPU of Lastation. Neptune's lifelong rival, best friend and fellow CPU."
+                    }
+                },
+                "sonic": {
+                    "name": "Sonic the Hedgehog",
+                    "id": "sonic",
+                    "series": "Sonic the Hedgehog",
+                    "appearance": {
+                        "Sonic": "Long quills, blue fur, peach skin, green eyes, red shoes with white strap and gold buckles.",
+                        "Super Sonic": "The same as his normal appearance, but his quills are turned up, his fur now glows gold and his eyes are red."
+                    },
+                    "gender": "Male",
+                    "description": "The main character of the Sonic the Hedgehog series. Based on his appearance in <em>Sonic Unleashed</em> and <em>Sonic Frontiers</em>.",
+                    "indicators": {
+                        "🔵": ["Normal", "Sonic's usual form, as he appears most of the time."],
+                        "🟡": ["Super", "Sonic in his Super Form, when he's empowered by the Chaos Emeralds."]
+                    },
+                    "relationships": {
+                        "Miles \"Tails\" Prower": "Sonic's best friend, a young fox with the ability to fly.",
+                        "Knuckles the Echidna": "A slightly hard-headed but dependable guardian of the Master Emerald on Angel Island. Sonic's friendly rival.",
+                        "Amy Rose": "Sonic's self-proclaimed girlfriend, a young pink hedgehog with a massive Piko Piko Hammer.",
+                        "Shadow the Hedgehog": "A black-and-red hedgehog created from a research experiment aboard the Space Colony ARK. Sonic's rival and equal in almost every way.",
+                        "Dr. Eggman": "Sonic's lifelong nemesis, a rotund scientist who builds machines and harnesses dark powers for the sake of world domination."
+                    }
+                }
+            }
+        },
+        "favouriteCharacters": {
+            "name": "Favourite Characters",
+            "id": "favourite-characters",
+            "description": "Characters that are particularly important to the writer. These characters aren't exactly poster children, but I still love them.",
+            "characters": {
+                "honoka": {
+                    "name": "Honoka Kousaka",
+                    "id": "honoka",
+                    "series": "Love Live!",
+                    "appearance": {
+                        "Casual Clothes": "Medium orange hair tied to the side with a yellow hairband, blue eyes, wearing a teal shirt with \"しま\" written on it, red undershirt and blue trousers (jeans?).",
+                        "School Uniform": "Same hair and eye colour as the normal clothes, wearing a dark blue blazer with a patterned bow tie and patterned skirt, with a white undershirt underneath, and black shoes."
+                    },
+                    "gender": "Female",
+                    "description": "Formerly a student of Otonokizaka High School, and an ex-school idol who used to lead her idol group, μ's. Honoka now helps her mother and sister run her sweet shop in the city. (She also still has her uniform for some reason.)",
+                    "indicators": {
+                        "🍞": ["Normal", "Honoka as she appears. She sure does appear."]
+                    }
+                },
+                "sora": {
+                    "name": "Sora",
+                    "id": "sora",
+                    "series": "Kingdom Hearts",
+                    "appearance": "Spiky hair with outstanding spikes on either side of his head, blue eyes, wearing",
+                    "gender": "Male",
+                    "description": "A young man from the Destiny Islands, Sora wields a special weapon called the Keyblade, which can unlock any lock. Based on his appearance in <em>Kingdom Hearts III</em>.",
+                    "indicators": {
+                        "🔑": ["Normal", "Sora in his usual outfit, while not using a transformation."]
+                    }
+                }
+            }
+        },
+        "originalCharacters": {
+            "name": "Original Characters",
+            "id": "original-characters",
+            "description": "Characters created by the writer of Born Of Velocity. These characters are wholly original and thus get more credit than the other characters.",
+            "characters": {
+                "joel": {
+                    "name": "Joel Nolasstnam",
+                    "id": "joel",
+                    "series": "Swordlink",
+                    "appearance": "Short spiky hair, dark purple shirt, black trousers and black trainers.",
+                    "gender": "Male",
+                    "description": "A brilliant programmer and sword wielder, who once defended the world against a digital demon threat.",
+                    "weapon": "Circuit Saber, a specialised sword built by Joel himself, able to manipulate digital fields.",
+                    "indicators": {
+                        "⌨️": ["Normal", "Joel as he appears most of the time. Actually, all the time."]
+                    },
+                    "relationships": {
+                        "Avery Nolasstnam": "Joel's younger sister, and a skilled mechanic. She built his Circuit Saber sword."
+                    }
+                },
+                "caeliana": {
+                    "name": "Caeliana Serenitide",
+                    "id": "caeliana",
+                    "series": "Seraph's Rapture",
+                    "appearance": {
+                        "Normal": "Medium-length black-gray hair, blue eyes, white dress, white-gold high heels.",
+                        "Demonic State": "Same as her normal appearance, but her hair turns bright white and her outfit takes on a reddish hue."
+                    },
+                    "gender": "Female",
+                    "description": "A hybrid half-angel half-devil seraph, and the heir to the throne of High Seraph of Heaven.",
+                    "indicators": {
+                        "💛": ["Normal", "Caeliana in her human form."],
+                        "❤️": ["Demonic State", "Caeliana in her Demonic State."] 
+                    },
+                    "relationships": {
+                        "Victoria Serenitide": "A hybrid half-angel half-devil sorceress, and Caeliana's twin sister.",
+                        "Faith Luminarus": "A talented angelic blacksmith in the celestial realm. Caeliana's best friend.",
+                        "Icarus Serenitide": "Caeliana's deceased father. Formerly the High Seraph before his death.",
+                        "Leonidas Serenitide": "Caeliana's uncle and Icarus' younger brother. The current High Seraph.",
+                        "Lilith Serenitide": "Caeliana's deceased mother. Formerly the Devil Overlord of Hell before her death."
+                    }
+                },
+                "victoria": {
+                    "name": "Victoria Serenitide",
+                    "id": "victoria",
+                    "series": "Seraph's Rapture",
+                    "appearance": {
+                        "Normal": "Medium-length black-gray hair, blue eyes, white dress, white-gold high heels.",
+                        "Angelic State": "Same as her normal appearance, but her hair turns bright white and her outfit takes on a reddish hue."
+                    },
+                    "gender": "Female",
+                    "description": "A hybrid half-angel half-devil sorceress, and Caeliana's twin sister.",
+                    "indicators": {
+                        "✒️": ["Normal", "Victoria in her human form."],
+                        "🪽": ["Angelic State", "Victoria in her Angelic State."]
+                    },
+                    "relationships": {
+                        "Caeliana Serenitide": "A hybrid half-angel half-devil seraph, and the heir to the throne of High Seraph of Heaven. Victoria's twin sister.",
+                        "Icarus Serenitide": "Victoria's deceased father. Her mother was responsible for his death.",
+                        "Leonidas Serenitide": "Victoria's uncle and Icarus' younger brother. She took Victoria in upon her defection from Hell.",
+                        "Lilith Serenitide": "Victoria's deceased mother. Formerly the Devil Overlord of Hell before her death."
+                    }
+                }
+            }
+        },
+        "otherCharacters": {
+            "name": "Other Characters",
+            "id": "other-characters",
+            "description": "Other characters that are not part of the original characters but are still significant enough to be included here.",
+            "characters": {
+                "nepgear": {
+                    "name": "Nepgear/Purple Sister",
+                    "id": "nepgear",
+                    "series": "Hyperdimension Neptunia",
+                    "appearance": {
+                        "Nepgear": "Straight medium purple hair, purple eyes, white-purple sailor-style dress, white D-Pad hair clip and white-purple boots.",
+                        "Purple Sister": "Flowing long lilac hair, blue eyes with power button symbols, white and light purple Processor Unit, white gloves and white and light purple boots."
+                    },
+                    "gender": "Female",
+                    "description": "The CPU Candidate of Planeptune. Neptune's younger sister.",
+                    "indicators": {
+                        "⚙️": ["Normal", "Nepgear's human form."],
+                        "💝": ["HDD", "Nepgear's Goddess form, also known as Purple Sister."]
+                    },
+                    "relationships": {
+                        "Neptune": "The CPU of Planeptune, and Nepgear's older sister.",
+                        "Uni": "The CPU Candidate of Lastation. Nepgear's best friend (and girlfriend, in some timelines).",
+                        "Ash Blossom-Shikagita":"A half-human half-cat Duelist from Neo Domino City (Yu-Gi-Oh!). Nepgear's older sister-in-dimension. <a href=\"http://blosom.carrd.co/#ash\">More info at <em>The Blossom Family</em> on Carrd.</a>",
+                        "Rom": "One of the CPU Candidates of Lowee. One of Nepgear's close friends.",
+                        "Ram": "The other CPU Candidate of Lowee. One of Nepgear's close friends.",
+                        "Vert": "The CPU of Leanbox. One of Nepgear's close friends, and a technology bonding buddy."
+                    }
+                },
+                "noire": {
+                    "name": "Noire/Black Heart",
+                    "id": "noire",
+                    "series": "Hyperdimension Neptunia",
+                    "appearance": {
+                        "Noire": "Twintailed black hair with blue ribbons, red eyes, black princess dress and black knee-high boots.",
+                        "Black Heart": "Flowing white hair, teal eyes with power button symbols, black Processor Unit and black boots."
+                    },
+                    "gender": "Female",
+                    "description": "The CPU of Lastation, the Land of Black Regality.",
+                    "indicators": {
+                        "⚔️": ["Normal", "Noire's human form."],
+                        "🖤": ["HDD", "Noire's Goddess form, also known as Black Heart."]
+                    }
+                },
+                "uni": {
+                    "name": "Uni/Black Sister",
+                    "id": "uni",
+                    "series": "Hyperdimension Neptunia",
+                    "appearance": {
+                        "Uni": "Twintailed black hair with black-white ribbons, red eyes, black strapless dress with white highlights and black almost-knee-high boots.",
+                        "Black Sister": "Curly white hair, sea green eyes with power button symbols, black Processor Unit and black knee-high boots."
+                    },
+                    "gender": "Female",
+                    "description": "The CPU Candidate of Lastation, and Noire's younger sister.",
+                    "indicators": {
+                        "🏹": ["Normal", "Uni's human form."],
+                        "⬛": ["HDD", "Uni's Goddess form, also known as Black Sister."]
+                    },  
+                    "relationships": {
+                        "Noire": "The CPU of Lastation, and Uni's older sister.",
+                        "Nepgear": "The CPU Candidate of Planeptune. Uni's best friend (and girlfriend, in some timelines).",
+                        "Rom":"One of the CPU Candidates of Lowee. One of Uni's close friends.",
+                        "Ram":"The other CPU Candidate of Lowee. One of Uni's close friends."
+                    }
+                }
+            }
+        }
+    }
+}

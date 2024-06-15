@@ -11,20 +11,33 @@ body {
     background-position: center;
 }
 
-button {
+.buttons {
+    width: max-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 6px;
+    button, select {
+        width: 745px;
+        display: block;
+    }
+}
+
+button, select {
     font-size: 18px;
-    font-family: sans-serif;
+    font-family: sans-serif, 'Noto Color Emoji';
+    text-align: center;
+    text-decoration: none;
     border: 0;
     border-radius: 2px;
     background-color: #f0f8ffd3;
-    padding: 6px;
+    padding: 18px 0;
     margin: 6px auto;
     box-shadow: 5px 5px 0 #00000022;
     transition: .15s;
 }
 
-button:hover {
-    background-color: #f0f8ffa0;
+button:hover, select:hover {
     box-shadow: none;
 }
 
@@ -83,12 +96,8 @@ h1, .center {
         background-color: #00000080;
     }
 
-    button {
+    button, select {
         color: white;
         background-color: #000000d3;
-    }
-
-    button:hover {
-        background-color: #00000081;
     }
 }
