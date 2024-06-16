@@ -1,12 +1,12 @@
 
-// templates.js - Copy templates for in-character and out-of-character messages.
+// templates.ts - Copy templates for in-character and out-of-character messages.
 
 let indicator = "_";
 let spacerCharacter = 'ㅤ'; // U+3164 "HANGUL FILLER"
 
 let oocLink = 'https://www.velocity.xn--6ii';
 
-function getTweetTemplate(withSpacing) {
+function getTweetTemplate(withSpacing: boolean) {
     let tweetTemplate = `{${indicator}}  ❝  ❞`;    
 
     if (withSpacing) {
@@ -23,9 +23,14 @@ function getOocLink() {
     alert('Out-of-context link copied to clipboard.');
 }
 
-function updateIndicator(newIndicator) {
+function updateIndicator(newIndicator: string) {
     indicator = newIndicator;
     let tweetTemplate = document.getElementById("tweet-template");
-    let templateValue = tweetTemplate.textContent;
-    tweetTemplate.textContent = templateValue.replace(/\{[^}]*\}/g, `{${newIndicator}}`);
+    if (tweetTemplate && tweetTemplate.textContent) {
+        let templateValue = tweetTemplate.textContent;
+        tweetTemplate.textContent = templateValue.replace(/\{[^}]*\}/g, `{${newIndicator}}`);
+    }
+    else {
+        console.error("No `tweet-template` div?");
+    }
 }

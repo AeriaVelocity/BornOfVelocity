@@ -1,4 +1,4 @@
-// renderCharacters.js - Render the list of characters from `characters.json`.
+// renderCharacters.ts - Render the list of characters from `characters.json`.
 
 // To use for `index.html`, import as <script src="renderCharacters.js" onload="renderShortForm()"></script>
 // To use for `characters.html`, import as <script src="renderCharacters.js" onload="renderFullForm()"></script>
@@ -6,6 +6,11 @@
 const charactersArea = document.getElementById("characters-area");
 
 function renderShortForm() {
+    if (!charactersArea) {
+        console.error("No `characters-area` div?");
+        return;
+    }
+
     fetch('characters.json')
         .then(response => response.json())
         .then(data => {
@@ -49,6 +54,11 @@ function renderShortForm() {
 }
 
 function renderFullForm() {
+    if (!charactersArea) {
+        console.error("No `characters-area` div?");
+        return;
+    }
+
     fetch('characters.json').then(response => response.json())
         .then(data => {
             console.log(data);
