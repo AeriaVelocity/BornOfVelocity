@@ -2,7 +2,7 @@
 function getIndicators() {
     let indicators = [];
     let request = new XMLHttpRequest();
-    request.open('GET', 'characters.json', false);
+    request.open('GET', 'db.json', false);
     request.send(null);
     if (request.status === 200) {
         let data = JSON.parse(request.responseText);
@@ -18,7 +18,7 @@ function getIndicators() {
         }
     }
     else {
-        console.error('Failed to fetch characters.json:', request.statusText);
+        console.error('Failed to fetch db.json:', request.statusText);
     }
     return indicators;
 }

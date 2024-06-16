@@ -1,0 +1,15 @@
+@media (prefers-color-scheme: dark) {
+    main {
+        color: white;
+        background-color: #00000080;
+    }
+
+    .block {
+        background-color: #00000080;
+    }
+
+    button, select {
+        color: white;
+        background-color: #000000d3;
+    }
+}

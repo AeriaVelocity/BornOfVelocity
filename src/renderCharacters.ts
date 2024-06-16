@@ -1,4 +1,4 @@
-// renderCharacters.ts - Render the list of characters from `characters.json`.
+// renderCharacters.ts - Render the list of characters from `db.json`.
 
 // To use for `index.html`, import as <script src="renderCharacters.js" onload="renderShortForm()"></script>
 // To use for `characters.html`, import as <script src="renderCharacters.js" onload="renderFullForm()"></script>
@@ -11,7 +11,7 @@ function renderShortForm() {
         return;
     }
 
-    fetch('characters.json')
+    fetch('db.json')
         .then(response => response.json())
         .then(data => {
             console.log(data);
@@ -59,7 +59,7 @@ function renderFullForm() {
         return;
     }
 
-    fetch('characters.json').then(response => response.json())
+    fetch('db.json').then(response => response.json())
         .then(data => {
             console.log(data);
 

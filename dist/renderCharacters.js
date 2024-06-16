@@ -5,7 +5,7 @@ function renderShortForm() {
         console.error("No `characters-area` div?");
         return;
     }
-    fetch('characters.json')
+    fetch('db.json')
         .then(response => response.json())
         .then(data => {
         console.log(data);
@@ -46,7 +46,7 @@ function renderFullForm() {
         console.error("No `characters-area` div?");
         return;
     }
-    fetch('characters.json').then(response => response.json())
+    fetch('db.json').then(response => response.json())
         .then(data => {
         console.log(data);
         for (let characterGroupKey in data.characters) {
