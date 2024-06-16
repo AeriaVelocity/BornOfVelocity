@@ -50,7 +50,6 @@ Use the dropdown menu below to change the above indicator.
             <button onclick="getTweetTemplate(true)">Copy With Spacing (for posts)</button>
             <button onclick="getTweetTemplate(false)">Copy Without Spacing (for DMs)</button>
         </div>
-        <script>loadIndicators();</script>
         <h3>Out-of-Character</h3>
         <div class="block"><a href="https://www.velocity.xn--6ii">velocity. </a>
 
@@ -62,8 +61,8 @@ Out-of-character messages or postings from the writer go here.</div>
         <div id="license-info"></div>
     </main>
     <script src="renderCharacters.js" onload="renderShortForm()"></script>
-    <script src="indicators.js"></script>
     <script src="licenseInfo.js"></script>
+    <script src="indicators.js" onload="loadIndicators()"></script>
     <script src="templates.js"></script>
 </body>
 </html>
