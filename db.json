@@ -1,6 +1,6 @@
 {
     "about": {
-        "thisDocument": "This is the JSON file which holds the characters that are part of Born Of Velocity.",
+        "thisDocument": "This is the JSON file which holds textual data for Born Of Velocity.",
         "author": "AeriaVelocity",
         "license": {
             "short": "CC BY-NC 4.0",
@@ -8,7 +8,7 @@
             "rights": "You are free to share and adapt the work, but you must give credit to AeriaVelocity if you make adaptations, and you cannot use this work for commercial purposes without permission from AeriaVelocity.",
             "url": "https://creativecommons.org/licenses/by-nc/4.0/"
         },
-        "url": "https://aeriavelocity.github.io/velocity-rp-profile"
+        "url": "https://aeriavelocity.github.io/bornofvelocity/"
     },
     "characters": {
         "posterChildren": {

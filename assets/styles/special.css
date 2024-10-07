@@ -1,31 +1,23 @@
-.buttons {
-    width: max-content;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    padding-top: 6px;
-    button, select {
-        width: 745px;
-        display: block;
-    }
-}
-
-button, select {
-    font-size: 18px;
+button, select, a.button {
+    font-size: 20px;
     font-family: sans-serif, 'Noto Color Emoji';
     text-align: center;
     text-decoration: none;
     border: 0;
     border-radius: 2px;
     background-color: #f0f8ffd3;
-    padding: 18px 0;
-    margin: 6px auto;
+    padding: 6px 8px;
+    margin: 4px;
     box-shadow: 5px 5px 0 #00000022;
     transition: .15s;
 }
 
-button:hover, select:hover {
+button:hover, select:hover, a.button:hover {
     box-shadow: none;
+}
+
+a.button {
+    text-decoration: none;
 }
 
 .block {
@@ -46,4 +38,24 @@ div.block {
     margin: auto;
     margin-top: 32px;
     display: block;
+}
+
+#content {
+    img {
+        display: block;
+        margin: auto;
+        margin-top: 24px;
+        max-width: 60%;
+        border-radius: 15px;
+    }
+    h2, h3, h4 {
+        text-align: center;
+    }
+    blockquote:before {
+        content: '|';
+        position: absolute;
+        font-size: 32px;
+        translate: -32px -12px;
+        opacity: 0.5;
+    }
 }

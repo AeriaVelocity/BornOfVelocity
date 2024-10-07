@@ -8,8 +8,8 @@
         background-color: #00000080;
     }
 
-    button, select {
+    button, select, a.button {
         color: white;
-        background-color: #000000d3;
+        background-color: #5f34b6d3;
     }
 }
